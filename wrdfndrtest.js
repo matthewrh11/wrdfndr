@@ -4,7 +4,7 @@ const readline = require('readline');
 function checkIfRealWord(word){
     fileNames = ["words3", "words4", "words5", "words6", "words7", "words8andup"]
 
-    let data = fs.readFileSync(fileNames[word.length - 3] + ".csv", "utf8").split(",")
+    let data = fs.readFileSync("./dictionary/"+ fileNames[word.length - 3] + ".csv", "utf8").split(",")
 
     return data.includes(word.toLowerCase());
 }
