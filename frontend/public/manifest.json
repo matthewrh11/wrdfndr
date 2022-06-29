@@ -1,0 +1,8 @@
+{
+  "short_name": "wrdfndr",
+  "name": "A multiplayer word finder game",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
